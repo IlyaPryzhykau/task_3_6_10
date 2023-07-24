@@ -23,5 +23,6 @@ class TestSel(unittest.TestCase):
         self.assertNotEqual(selectors('http://suninjuly.github.io/registration2.html'),
                          "Congratulations! You have successfully registered!")
 
+
 if __name__ == "__main__":
     unittest.main()
